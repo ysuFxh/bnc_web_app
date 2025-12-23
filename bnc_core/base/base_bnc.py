@@ -5,8 +5,8 @@ BNC抽象基类
 
 import abc
 from pgmpy.models import DiscreteBayesianNetwork
-from backend.app.core.bnc_core.utils import dag2bn_util
-from backend.app.core.bnc_core.base import data_utils, param_learning, inference, evaluation
+from bnc_core.utils import dag2bn_util
+from bnc_core.base import data_utils, param_learning, inference, evaluation
 
 
 class BaseBNC(abc.ABC):

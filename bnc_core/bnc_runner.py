@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.model_selection import StratifiedKFold
 
 # 1. 导入工厂类和Metrics类（假设已定义）
-from backend.app.core.bnc_core.utils.classifier_factory import ClassifierFactory
-from backend.app.core.bnc_core.base import data_utils
+from bnc_core.utils.classifier_factory import ClassifierFactory
+from bnc_core.base import data_utils
 
 def n_round_n_fold_cv(
         algorithm: str,

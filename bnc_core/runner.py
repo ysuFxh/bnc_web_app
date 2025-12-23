@@ -1,7 +1,7 @@
 # bnc/runner.py
 from typing import Dict, Any
-from backend.app.core.bnc_core.base.base_bnc import BaseBNC
-from backend.app.core.bnc_core.classifiers import NBClassifier, KDBClassifier, TANClassifier, AODEClassifier
+from bnc_core.base.base_bnc import BaseBNC
+from bnc_core.classifiers import NBClassifier, KDBClassifier, TANClassifier, AODEClassifier
 
 
 class ClassifierFactory:

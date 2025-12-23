@@ -8,8 +8,8 @@ import warnings
 warnings.filterwarnings("ignore")  # 屏蔽无关警告
 
 # 1. 导入你的工厂类和工具类
-from backend.app.core.bnc_core.utils.classifier_factory import ClassifierFactory
-from backend.app.core.bnc_core.base import data_utils
+from bnc_core.utils.classifier_factory import ClassifierFactory
+from bnc_core.base import data_utils
 
 # TODO 后续改造成并行计算的版本
 # ========== 核心：封装单折执行函数（独立可并行） ==========

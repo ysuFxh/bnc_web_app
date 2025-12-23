@@ -1,8 +1,8 @@
-from backend.app.core.bnc_core.base import get_node_names
-from backend.app.core.bnc_core.base.base_bnc import BaseBNC
+from bnc_core.base import get_node_names
+from bnc_core.base.base_bnc import BaseBNC
 import numpy as np
 from typing import Tuple
-from backend.app.core.bnc_core.utils import it_calc_tool
+from bnc_core.utils import it_calc_tool
 
 
 class KDBClassifier(BaseBNC):

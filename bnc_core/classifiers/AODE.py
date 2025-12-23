@@ -1,9 +1,9 @@
 from pgmpy.models import DiscreteBayesianNetwork
 
-from backend.app.core.bnc_core.base.base_bnc import BaseBNC
+from bnc_core.base.base_bnc import BaseBNC
 import numpy as np
-from backend.app.core.bnc_core.utils import dag2bn_util
-from backend.app.core.bnc_core.base import param_learning, inference, evaluation
+from bnc_core.utils import dag2bn_util
+from bnc_core.base import param_learning, inference, evaluation
 
 
 class AODEClassifier(BaseBNC):

@@ -1,6 +1,6 @@
 
-from backend.app.core.bnc_core.base.base_bnc import BaseBNC
-from backend.app.core.bnc_core.classifiers import NBClassifier, KDBClassifier, TANClassifier, AODEClassifier
+from bnc_core.base.base_bnc import BaseBNC
+from bnc_core.classifiers import NBClassifier, KDBClassifier, TANClassifier, AODEClassifier
 
 class ClassifierFactory:
     """分类器工厂：根据算法名创建对应的BNC分类器实例（核心：映射算法名→分类器类）"""

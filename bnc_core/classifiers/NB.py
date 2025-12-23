@@ -1,6 +1,6 @@
-from backend.app.core.bnc_core.base.base_bnc import BaseBNC
+from bnc_core.base.base_bnc import BaseBNC
 import numpy as np
-from backend.app.core.bnc_core.base.data_utils import get_node_names
+from bnc_core.base.data_utils import get_node_names
 
 class NBClassifier(BaseBNC):
     """朴素贝叶斯分类器（仅实现结构学习）"""

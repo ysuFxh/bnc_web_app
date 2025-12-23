@@ -1,6 +1,6 @@
-from backend.app.core.bnc_core.classifiers.NB import NBClassifier
+from bnc_core.classifiers.NB import NBClassifier
 import pandas as pd
-from backend.app.core.bnc_core.base import data_utils
+from bnc_core.base import data_utils
 if __name__ == "__main__":
     # 1. 初始化分类器
     nb = NBClassifier(param_estimator="MLE")
